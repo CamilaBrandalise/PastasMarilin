@@ -1,0 +1,291 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #ffdda1;
+  width: 100%;
+}
+
+header{
+  background-color: #CF995F;
+  width: 100%;
+}
+
+
+/*Nuevo nav*/
+.colortextoenlace a:hover{
+  color: #69e779;
+  }
+  
+.color-nav{
+  background-color:  #CF995F;
+}
+.colorenlaces {
+  color: white;
+  font-size: 20px;
+  font-family: "Martel",
+  serif;
+}
+.menunav{
+background-image: url(../assets/img/menunav.png);
+}
+.boton{
+  border: white solid ;
+}
+/*Estructura del menu principal*/
+header{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+
+
+
+
+
+
+
+/*Estilos de textos*/
+h1{
+  color: #69e779;
+  font-family: "Martel",
+    serif;
+  font-weight: 800;
+  font-size: 50px;
+}
+
+
+h2{
+  color: orange;
+  font-family: "Martel",
+    serif;
+  font-weight: 700;
+  text-align: center;
+  font-size: 30px;
+  text-decoration: underline;
+}
+
+h3{
+color: #e77728;
+}
+
+p{
+  font-family: "Oxygen",
+    sans-serif;
+}
+
+
+/*PAGINA INICIO*/
+  /*Primera sección*/
+  /*Carrusel de imagenes (inicio)*/
+#carousel-pastas {
+  margin: 0 auto;
+  width: 50%;
+}
+.texto-carrusel{
+  background-color: white;
+  border: #e77728 solid 3px;
+  width: 40%;
+  margin: 0 auto;
+  text-align: center;
+}
+  /*Segunda sección*/
+.presentacion-inicio {
+  padding-top: 40px;
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+  border-color: #e77728;
+  border-style: solid;
+}
+.presentacion-inicio div{
+  max-width: 50%;
+  height: auto;
+  padding:10px 15px 20px 25px;
+}
+  /*Tercera sección*/
+.section-tres-inicio{
+    padding: 30px 15px 20px 25px;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+.section-tres-inicio div{ 
+  max-width: 33%;
+  }
+
+.section-tres-inicio img{
+  height: auto;
+  max-width: 100%;
+}
+.section-tres-inicio iframe {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
+
+/*PAGINA PRODUCTOS*/
+/*Grilla de imagenes sección productos*/
+.main-productos {
+  border: #e77728 solid;
+}
+.grilla-productos{
+  width: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr 2fr 2fr;
+  grid-template-rows: 1fr 1fr 2fr;
+  grid-template-areas:
+  "img-1 img-2 img-5 img-6"
+  "img-3 img-4 img-5 img-6"
+  "img-7 img-7 img-8 img-8";
+}
+  .grilla-productos {
+    display: grid;
+    padding: 10px;
+  }
+  
+  .grilla-productos img {
+    width: 100%;      
+    height: 100%;      
+    display: block;      
+    object-fit: cover;
+    border-color: #e77728;
+    border-style: solid;  
+  }
+
+  .img-1 {
+    grid-area: img-1;
+  }
+  
+  .img-2 {
+    grid-area: img-2;
+  }
+  
+  .img-3 {
+    grid-area: img-3;
+  }
+  
+  .img-4 {
+    grid-area: img-4;
+  }
+  
+  .img-5 {
+    grid-area: img-5;
+  }
+  
+  .img-6 {
+    grid-area: img-6;
+  }
+  
+  .img-7 {
+    grid-area: img-7;
+  }
+  
+  .img-8 {
+    grid-area: img-8;
+  }
+  
+
+
+/*PAGINA NUESTRA HISTORIA*/
+
+.seccion-nuestra-historia {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  padding: 30px 15px 30px 15px;
+  justify-content: center;
+  justify-items: center;
+}
+.seccion-nuestra-historia div{
+  max-width: 50%;
+}
+.seccion-nuestra-historia DIV img{
+  height: 100%;
+  width: 100%;
+}
+
+/*PAGINA CONTACTO*/
+
+
+
+
+
+
+
+
+
+
+
+/*Version media*/
+
+    @media (max-width: 756px){
+            nav ul{
+        flex-direction: column;
+      }
+      
+      header{
+        padding: 0px;
+        flex-direction: column;
+        align-items: center;}
+
+    /*Page Inicio*/
+      .presentacion-inicio {
+        flex-direction: column;
+        padding: 0px;
+      }
+      .presentacion-inicio div{
+        max-width: 100%;
+        height: auto;
+
+      }
+      
+      .presentacion-inicio iframe {
+        width: 100%;
+        max-width: 100%;
+        height: 400px;
+        padding: 0px;
+      }
+    
+      .section-tres-inicio{
+        flex-direction: column;    
+    }
+    .section-tres-inicio iframe {
+      width: 100%;
+      max-width: 100%;
+      height: auto;
+    }
+/*Page nuestra historia*/
+    .seccion-nuestra-historia {
+      flex-direction: column;
+      padding: 10px;
+
+    }
+    .seccion-nuestra-historia div{
+      max-width: 100%;
+    }
+
+    /*Page productos*/
+
+.grilla-productos{
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: repeat(4, 1fr);
+  grid-template-areas:
+  "img-1 img-2"
+  "img-3 img-4"
+  "img-5 img-6"
+  "img-7 img-8";
+}
+
+}
+
