@@ -44,8 +44,6 @@ header{
 }
 
 
-
-
 /*Estilos de textos*/
 h1{
   color: #69e779;
@@ -75,6 +73,39 @@ text-align: center;
 p{
   font-family: "Oxygen",
     sans-serif;
+}
+
+/*Estructura del Pie de página*/
+.seccion-footer{
+  background-color: #CF995F;
+}
+
+.seccion-footer div{
+  display: flex;
+  align-items: center;
+}
+
+.redes{
+  padding: 10px;
+  justify-content: space-evenly;
+}
+.redes img{
+  height: 40px;
+  max-width: 100%;
+}
+
+.telefono-correo{
+  height: 50px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+  background-color: wheat;
+  border: #e77728 solid;
+  margin: 10px;
+}
+.telefono-correo p{
+  margin: 0%;
 }
 
 
@@ -130,7 +161,6 @@ p{
   margin: 0 auto;
   width: 100%;
 }
-
 
 /*PAGINA PRODUCTOS*/
 /*Grilla de imagenes sección productos*/
@@ -196,7 +226,6 @@ p{
 
 
 /*PAGINA NUESTRA HISTORIA*/
-
 .seccion-nuestra-historia {
   width: 100%;
   display: flex;
@@ -214,7 +243,6 @@ p{
 }
 
 /*PAGINA CONTACTO*/
-
 .seccion-contactos{
   background-color: #ffdda1;
   display: flex;
@@ -242,7 +270,9 @@ width: 100%;
   justify-content: center;
   padding: 10px 50px 30px 50px;
 }
-
+.main-canal-youtube{
+  margin: 20px;
+}
 .imagenes-recetas{
   background-color: #ffdda1;
   display: flex;
@@ -262,15 +292,13 @@ width: 100%;
 }
 
 
-
-
 /*Version media*/
 
     @media (max-width: 756px){
             nav ul{
         flex-direction: column;
       }
-      
+
       header{
         padding: 0px;
         flex-direction: column;
@@ -281,10 +309,10 @@ width: 100%;
         flex-direction: column;
         padding: 0px;
       }
+
       .presentacion-inicio div{
         max-width: 100%;
         height: auto;
-
       }
       
       .presentacion-inicio iframe {
@@ -302,6 +330,7 @@ width: 100%;
       max-width: 100%;
       height: auto;
     }
+    
 /*Page nuestra historia*/
     .seccion-nuestra-historia {
       flex-direction: column;
@@ -313,7 +342,6 @@ width: 100%;
     }
 
     /*Page productos*/
-
 .grilla-productos{
   grid-template-columns: 1fr 1fr;
   grid-template-rows: repeat(4, 1fr);
@@ -324,19 +352,22 @@ width: 100%;
   "img-7 img-8";
 }
 
-
 /*PAGINA CONTACTO*/
-
 .seccion-contactos{
   flex-direction: column;
 }
 .color-boton{
 width: 100%;
 }
+
 /*PAGINA CANAL YOUTUBE*/
 .imagenes-recetas{
   flex-direction: column ;
 }
 
+/*PIE DE PAGINA*/
+.telefono-correo{
+  flex-direction: column;
+}
 }
 
