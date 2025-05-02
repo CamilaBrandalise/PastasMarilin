@@ -11,7 +11,7 @@ flex-direction: column;
 align-items: center;}
 
 /*Page Inicio*/
-.presentacion-inicio {
+.presentacion-inicio{
 flex-direction: column;
 padding: 0px;
 div{
@@ -28,12 +28,15 @@ iframe {
 
 
 .section-tres-inicio{
-flex-direction: column; 
+display: flex;
+flex-direction: column;
+justify-content: center;
+width: 100%;
 iframe {
     width: 100%;
     max-width: 100%;
     height: auto;
-    }   
+}   
 }
 
 /*Page nuestra historia*/
@@ -66,7 +69,7 @@ width: 100%;
 
 /*PAGINA CANAL YOUTUBE*/
 .imagenes-recetas{
-flex-direction: column ;
+flex-direction: column;
 }
 
 /*PIE DE PAGINA*/
