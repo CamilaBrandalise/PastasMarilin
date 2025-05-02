@@ -1,0 +1,36 @@
+$colorfondo:#ffdda1;
+$colorsecundario:#CF995F;
+$colortextologo:#69e779;
+$colortextos: orange;
+
+
+//extends//
+%flexrow{
+    display: flex;
+    flex-direction: row;
+}
+%flexrowcenter{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+%bordes{
+    border: solid $colortextos 3px;
+}
+
+//Mixin//
+@mixin tipografias($fuente, $tamanio, $decoracion, $color, $negrita){
+    font-family: $fuente;
+    font-size: $tamanio;
+    text-decoration: $decoracion;
+    color: $color;
+    font-weight: $negrita;
+}
+
+
+
+
+
+

@@ -1,0 +1,13 @@
+.seccion-nuestra-historia {
+    width: 100%;
+    padding: 30px 15px 30px 15px;
+    @extend %flexrowcenter;
+
+    div{
+        max-width: 50%;
+        img{
+            height: auto;
+            width: 100%;
+        }
+    }
+}

@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $colorfondo;
+    width: 100%;
+    header{ 
+    background-color: $colorsecundario;
+    width: 100%;
+    @extend %flexrowcenter;
+    }
+}
+
+//navegador//
+.colortextoenlace a:hover{
+    color: $colortextologo;
+    }
+    
+.color-nav{
+    background-color:  $colorsecundario;
+}
+.colorenlaces {
+    @include tipografias("Martel", 20px, none, white, 400);
+}
+
+.menunav{
+background-image: url(../assets/img/menunav.png);
+}
+.boton{
+    border: white solid ;
+}
+
+
+//Textos//
+
+h1{
+    @include tipografias("Martel", 50px, none, $colortextologo, 800);
+}
+
+h2{
+    @include tipografias("Martel", 30px, underline, $colortextos, 700);
+    text-align: center;
+}
+
+h3{
+color: $colortextos;
+text-align: center;
+}
+
+p{
+    font-family: "Oxygen",
+    sans-serif;
+}
+
+
+//footer//
+
+.seccion-footer{
+    background-color: $colorsecundario;
+}
+
+.seccion-footer div{
+    display: flex;
+    align-items: center;
+}
+
+.redes{
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.redes img{
+    height: 40px;
+    max-width: 100%;
+}
+
+.telefono-correo {
+    @extend %flexrow;
+    @extend %bordes;
+    height: 50px;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: wheat;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,46 @@
+#carousel-pastas {
+    margin: 0 auto;
+    width: 50%;
+}
+.texto-carrusel{
+    @extend %bordes;
+    background-color: white;
+    width: 40%;
+    margin: 0 auto;
+    text-align: center;
+}
+/*Segunda sección*/
+.presentacion-inicio {
+    padding-top: 40px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    @extend %bordes;
+    @extend %flexrowcenter;
+
+}
+.presentacion-inicio div{
+    max-width: 50%;
+    height: auto;
+    padding:10px 15px 20px 25px;
+}
+
+
+.section-tres-inicio{
+    padding: 30px 15px 20px 25px;
+    @extend %flexrowcenter;
+    width: 100%;
+    div{ 
+        max-width: 33%;
+    } 
+    iframe{
+        display: block;
+        margin: 0 auto;
+    }
+}
+.section-tres-inicio img{
+    height: auto;
+    max-width: 100%;
+}
+
+
