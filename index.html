@@ -8,6 +8,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Martel:wght@200;300;400;600;700;800;900&family=Oxygen:wght@300;400;700&display=swap" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-SgOJa3DmI69IUzQ2PVdRZhwQ+dy64/BUtbMJw1MZ8t5HZApcHrRKUc4W0kG879m7" crossorigin="anonymous">
   <link rel="stylesheet" href="./css/style.css">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
   <!-- título y menú de navegación -->
@@ -48,7 +49,6 @@
   <main>  
   <!-- Sección uno: Carrusel de imagenes -->
   <section>
-    <h2>Algunas de nuestras pastas</h2>
     <div id="carousel-pastas" class="carousel slide w-100">
       <div class="carousel-indicators">
         <button type="button" data-bs-target="#carousel-pastas" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
@@ -57,19 +57,19 @@
       </div>
       <div class="carousel-inner">
         <div class="carousel-item active">
-          <img src="./assets/img/img1.jpg" class="d-block w-75 mx-auto" alt="fideos al huevo">
+          <img src="./assets/img/img1.jpg" class="d-block w-100 mx-auto" alt="fideos al huevo">
           <div class="carousel-caption d-none d-md-block">
             <h3 class="texto-carrusel">Fideos al huevo</h3>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./assets/img/img2.jpg" class="d-block w-75 mx-auto" alt="Capellettis">
+          <img src="./assets/img/img2.jpg" class="d-block w-100 mx-auto" alt="Capellettis">
           <div class="carousel-caption d-none d-md-block">
             <h3 class="texto-carrusel">Capellettis</h3>
           </div>
         </div>
         <div class="carousel-item">
-          <img src="./assets/img/img3.jpg" class="d-block w-75 mx-auto" alt="Fideos variados">
+          <img src="./assets/img/img3.jpg" class="d-block w-100 mx-auto" alt="Fideos variados">
           <div class="carousel-caption d-none d-md-block">
             <h3 class="texto-carrusel">Fideos de vegetales</h3>
           </div>
@@ -88,14 +88,14 @@
   
   <!-- Sección dos: Presentación textual y video -->
   <section>
-    <div class="presentacion-inicio">
-      <div>
+    <div class="divpadreinicio">
+      <div class="presentacion-inicio" data-aos="fade-right" data-aos-duration="2000">
         <h2>Quienes somos</h2>
         <p>En Pasta Marilín, cada plato que servimos está lleno de pasión, creatividad y un toque único de calidez. Somos un pequeño equipo liderado por Marilín, una emprendedora con una visión clara: llevar la auténtica tradición de las pastas a nuevas alturas, sin perder nunca el sabor y la esencia que hace a cada bocado especial.</p> <br>
         <p>Acompañada de un grupo cercano y comprometido de colaboradores, nos dedicamos a crear pastas de diversas variedades, cada una elaborada con recetas propias que fusionan lo mejor de la tradición y la innovación. Desde las más clásicas hasta las más atrevidas, cada pasta que preparamos es una experiencia única, pensada para conquistar a los más exigentes paladares.</p><br>
         <p>Lo que nos distingue no solo es la calidad de nuestros ingredientes, sino también el amor con el que trabajamos cada receta. En Pasta Marilín, no solo servimos comida; compartimos un pedazo de nuestra historia, de nuestra pasión, de nuestra calidez.</p><br>
       </div>
-      <div>
+      <div class="presentacion-video" data-aos="fade-left" data-aos-duration="2000">
         <iframe width="560" height="315" src="https://www.youtube.com/embed/eNNkG0s9CB0?si=z7y3JchKjQEAbbFb" title="Video pastas con Marilin" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
       </div>
     </div>
@@ -142,5 +142,9 @@
     </div>
   </footer>
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 </body>
 </html>

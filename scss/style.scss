@@ -1,17 +1,8 @@
-@import 'variablesextendsmixin';
-@import 'generales';
-@import 'secciones/inicio';
-@import 'secciones/nuestrahistoria';
-@import 'secciones/productos';
-@import 'secciones/contacto';
-@import 'secciones/canalyoutube';
+@import 'utilities/variablesextendsmixin';
+@import 'layout/generales';
+@import 'views/inicio';
+@import 'views/canalyoutube';
+@import 'views/contacto';
+@import 'views/nuestrahistoria';
+@import 'views/productos';
 @import 'mediaquery';
-
-
-
-
-
-
-
-
-

@@ -19,6 +19,7 @@ body{
     color: $colortextologo;
     }
     
+
 .color-nav{
     background-color:  $colorsecundario;
 }
@@ -26,12 +27,15 @@ body{
     @include tipografias("Martel", 20px, none, white, 400);
 }
 
+
 .menunav{
 background-image: url(../assets/img/menunav.png);
 }
 .boton{
     border: white solid ;
 }
+
+
 
 
 //Textos//
@@ -53,6 +57,7 @@ text-align: center;
 p{
     font-family: "Oxygen",
     sans-serif;
+    text-align: justify;
 }
 
 
