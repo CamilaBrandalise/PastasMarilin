@@ -38,7 +38,9 @@ main{
         height: 500px;
     }
     }
-
+img{
+    @extend %bordes;
+}
 }
 
 

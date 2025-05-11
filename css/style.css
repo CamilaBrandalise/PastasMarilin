@@ -11,8 +11,8 @@
   justify-content: space-evenly;
 }
 
-.grilla-productos img, .main-productos, .imagenes-recetas div img, .divpadreinicio, .texto-carrusel, .telefono-correo {
-  border: solid orange 3px;
+.grilla-productos img, .main-productos, .seccion-nuestra-historia img, .imagenes-recetas div img, .divpadreinicio, .texto-carrusel, .telefono-correo {
+  border: solid orange 5px;
 }
 
 * {
@@ -233,7 +233,6 @@ main {
 .seccion-nuestra-historia div img {
   height: 500px;
 }
-
 .grilla-productos {
   width: 100%;
   display: grid;
