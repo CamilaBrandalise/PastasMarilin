@@ -41,11 +41,11 @@ background-image: url(../assets/img/menunav.png);
 //Textos//
 
 h1{
-    @include tipografias("Martel", 50px, none, $colortextologo, 800);
+    @include tipografias("Martel", 60px, none, $colortextologo, 1000);
 }
 
 h2{
-    @include tipografias("Martel", 30px, underline, $colortextos, 700);
+    @include tipografias("Martel", 40px, underline, $colortextos, 900);
     text-align: center;
 }
 
@@ -59,6 +59,10 @@ p{
     sans-serif;
     text-align: justify;
 }
+
+.textos-grilla-historia{
+    font-size: 25px;
+    }
 
 
 //footer//
