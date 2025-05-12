@@ -308,18 +308,7 @@ main {
   }
   .section-tres-inicio {
     flex-direction: column;
-    width: 100vw;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  .section-tres-inicio div {
     width: 100%;
-    max-width: 100%;
-    padding: 10px;
-  }
-  .section-tres-inicio {
-    flex-direction: column;
-    width: 100vw;
     padding: 0;
     box-sizing: border-box;
   }
