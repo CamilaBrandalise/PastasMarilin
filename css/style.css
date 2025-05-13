@@ -82,7 +82,7 @@ p {
 }
 
 .textos-grilla-historia {
-  font-size: 15px;
+  font-size: 20px;
   text-align: justify;
 }
 
@@ -339,6 +339,9 @@ main {
   }
   .seccion-nuestra-historia div {
     max-width: 100%;
+  }
+  .textos-grilla-historia {
+    font-size: 15px;
   }
   /*Page productos*/
   .grilla-productos {
