@@ -11,7 +11,7 @@
   justify-content: space-evenly;
 }
 
-.grilla-productos img, .main-productos, .seccion-nuestra-historia img, .imagenes-recetas div img, .texto-carrusel, .telefono-correo {
+.grilla-productos img, .main-productos, .imagenes-recetas div img, .texto-carrusel, .telefono-correo {
   border: solid orange 5px;
 }
 
@@ -22,6 +22,8 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   background-color: #ffdda1;
   width: 100%;
 }
@@ -82,7 +84,7 @@ p {
 }
 
 .textos-grilla-historia {
-  font-size: 20px;
+  font-size: 15px;
   text-align: justify;
 }
 
@@ -202,32 +204,30 @@ p {
   color: white;
 }
 
-main {
-  padding: 30px;
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px;
 }
 
-.seccion-nuestra-historia {
+body, html {
   width: 100%;
-}
-.seccion-nuestra-historia div {
-  max-width: 50%;
-}
-.seccion-nuestra-historia div img {
   height: 100%;
-  width: 100%;
-  border-radius: 20%;
+  overflow-x: hidden; /* Evita el scroll lateral */
 }
 
 .seccion-nuestra-historia {
   width: 100%;
+  max-width: 100%;
   display: grid;
-  padding: 5px;
+  padding: 0;
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: auto;
   grid-template-areas: "div1 div2" "div3 div4" "div5 div6" "div7 div8";
 }
 .seccion-nuestra-historia div {
-  padding: 10px 0px 10px 0px;
+  padding: 10px 0;
+  width: 100%;
   max-width: 100%;
   display: flex;
   align-items: center;
@@ -235,10 +235,15 @@ main {
 }
 .seccion-nuestra-historia div .texto {
   max-height: 100%;
-}
-.seccion-nuestra-historia div img {
   width: 100%;
 }
+.seccion-nuestra-historia div img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20%;
+  display: block;
+}
+
 .grilla-productos {
   width: 100%;
   display: grid;
@@ -342,7 +347,8 @@ main {
     grid-template-areas: "div1" "div2" "div3" "div4" "div5" "div6" "div7" "div8" "div9";
   }
   .seccion-nuestra-historia div {
-    max-width: 100%;
+    padding: 10px 0px 10px 0px;
+    max-width: auto;
   }
   .textos-grilla-historia {
     font-size: 15px;

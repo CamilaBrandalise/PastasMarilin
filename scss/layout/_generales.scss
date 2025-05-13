@@ -5,6 +5,8 @@
 }
 
 body{
+    margin: 0;
+    padding: 0;
     background-color: $colorfondo;
     width: 100%;
     header{ 
@@ -61,7 +63,7 @@ p{
 }
 
 .textos-grilla-historia{
-    font-size: 20px;
+    font-size: 15px;
     text-align: justify
     }
 
