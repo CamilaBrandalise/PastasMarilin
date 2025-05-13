@@ -11,7 +11,7 @@
   justify-content: space-evenly;
 }
 
-.grilla-productos img, .main-productos, .seccion-nuestra-historia img, .imagenes-recetas div img, .divpadreinicio, .texto-carrusel, .telefono-correo {
+.grilla-productos img, .main-productos, .seccion-nuestra-historia img, .imagenes-recetas div img, .texto-carrusel, .telefono-correo {
   border: solid orange 5px;
 }
 
@@ -56,7 +56,7 @@ body header {
 
 h1 {
   font-family: "Martel";
-  font-size: 60px;
+  font-size: 50px;
   text-decoration: none;
   color: #69e779;
   font-weight: 1000;
@@ -82,7 +82,8 @@ p {
 }
 
 .textos-grilla-historia {
-  font-size: 20px;
+  font-size: 15px;
+  text-align: justify;
 }
 
 .seccion-footer {
@@ -128,7 +129,7 @@ p {
 
 /*Segunda sección*/
 .divpadreinicio {
-  padding-top: 40px;
+  padding: 30px;
   width: 100%;
   align-items: center;
   justify-content: space-evenly;
@@ -208,7 +209,7 @@ main {
   max-width: 50%;
 }
 .seccion-nuestra-historia div img {
-  height: auto;
+  height: 100%;
   width: 100%;
   border-radius: 20%;
 }
@@ -223,7 +224,7 @@ main {
 }
 .seccion-nuestra-historia div {
   max-width: 100%;
-  padding: 30px;
+  padding: 10px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -300,7 +301,7 @@ main {
     max-width: 100%;
     height: auto;
   }
-  presentacion-video iframe {
+  presentacion-video iframe-video {
     margin: 10px;
     width: 100%;
     max-width: 100%;

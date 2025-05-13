@@ -13,11 +13,10 @@
 }
 /*Segunda sección*/
 .divpadreinicio {
-    padding-top: 40px;
+    padding: 30px;
     width: 100%;
     align-items: center;
     justify-content: space-evenly;
-    @extend %bordes;
     @extend %flexrowcenter;
     div{
         max-width: 50%;
