@@ -14,14 +14,13 @@ flex-direction: column;
         flex-direction: column;
         padding: 0px;
         div{
-            max-width: 100%;
+            max-width: 100% !important;
             height: auto;
         }
 
         }
         presentacion-video{
             iframe-video{
-                margin: 10px;
                 width: 100%;
                 max-width: 100%;
                 height: 400px;
@@ -43,13 +42,15 @@ flex-direction: column;
                 font-size: 15px;}
             }
         }
-            .presentacion-video iframe {
-                margin: 10px;
+            .presentacion-video{
+                width: 100%;
+                padding: 0%;
+                iframe {
                 width: 100%;
                 max-width: 100%;
                 height: 400px;
-                padding: 0px;
-            }
+            } 
+        }
         /*Page nuestra historia*/
 
         .seccion-nuestra-historia{
