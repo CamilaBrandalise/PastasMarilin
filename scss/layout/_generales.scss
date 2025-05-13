@@ -89,13 +89,16 @@ p{
 .telefono-correo {
     @extend %flexrow;
     @extend %bordes;
-    height: 50px;
+    height: auto;
     justify-content: space-evenly;
     align-items: center;
     background-color: wheat;
     margin: 10px;
 }
 
+.telefono-correo-div{
+    flex: 1 1 50%
+}
 
 
 
