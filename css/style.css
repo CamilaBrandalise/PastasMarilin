@@ -299,7 +299,7 @@ body {
   /*Page Inicio*/
   .divpadreinicio {
     flex-direction: column;
-    padding: 0px;
+    padding: 20px;
   }
   .divpadreinicio div {
     max-width: 100% !important;
