@@ -54,6 +54,7 @@ flex-direction: column;
         /*Page nuestra historia*/
 
         .seccion-nuestra-historia{
+            padding: 20px;
             grid-template-columns: 1fr;
             grid-template-rows: auto;
             grid-template-areas:
@@ -67,8 +68,7 @@ flex-direction: column;
             "div8"
             "div9";
                 div{
-                    padding: 10px 0px 10px 0px;
-                    max-width: auto;
+                    width: auto;
                 }
         }
         .textos-grilla-historia{
