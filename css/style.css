@@ -210,12 +210,16 @@ body {
   overflow-x: hidden;
 }
 
+.texto-final-historia {
+  margin: 30px;
+}
+
 .seccion-nuestra-historia {
   width: 100%;
   max-width: 100%;
   display: grid;
-  gap: 20px;
-  padding: 0;
+  gap: 50px;
+  padding: 30px;
   grid-template-columns: 1fr 1fr;
   grid-auto-rows: auto;
   grid-template-areas: "div1 div2" "div3 div4" "div5 div6" "div7 div8";
