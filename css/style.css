@@ -11,7 +11,7 @@
   justify-content: space-evenly;
 }
 
-.grilla-productos img, .main-productos, .imagenes-recetas div img, .texto-carrusel, .telefono-correo {
+.grilla-productos img, .main-productos, .seccion-contactos-div img, .imagenes-recetas div img, .texto-carrusel, .telefono-correo {
   border: solid orange 5px;
 }
 
@@ -34,8 +34,8 @@ body header {
 
 .logo-principal {
   display: flex;
-  align-items: center;
-  height: 90px;
+  align-items: end;
+  height: 100%;
 }
 
 .colortextoenlace a:hover {
@@ -64,7 +64,7 @@ body header {
 
 h1 {
   font-family: "Martel";
-  font-size: 50px;
+  font-size: 45px;
   text-decoration: none;
   color: #69e779;
   font-weight: 1000;
@@ -90,7 +90,7 @@ p {
 }
 
 .textos-grilla-historia {
-  font-size: 15px;
+  font-size: 20px;
   text-align: justify;
 }
 
@@ -204,6 +204,7 @@ p {
 }
 .seccion-contactos-div img {
   width: 100%;
+  border-radius: 10%;
 }
 
 .color-boton {

@@ -8,6 +8,8 @@
     padding: 10px;
     img{
         width: 100%;
+        @extend %bordes;
+        border-radius: 10%;
     }
 }
 .color-boton{

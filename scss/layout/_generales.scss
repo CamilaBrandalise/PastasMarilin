@@ -18,8 +18,8 @@ body{
 
 .logo-principal{
 display: flex; 
-align-items: center; 
-height: 90px; 
+align-items: end; 
+height: 100%; 
 }
 
 //navegador//
@@ -49,7 +49,7 @@ background-image: url(../assets/img/menunav.png);
 //Textos//
 
 h1{
-    @include tipografias("Martel", 50px, none, $colortextologo, 1000);
+    @include tipografias("Martel", 45px, none, $colortextologo, 1000);
 }
 
 h2{
@@ -69,7 +69,7 @@ p{
 }
 
 .textos-grilla-historia{
-    font-size: 15px;
+    font-size: 20px;
     text-align: justify
     }
 
