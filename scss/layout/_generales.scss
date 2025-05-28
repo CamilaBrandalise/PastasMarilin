@@ -16,6 +16,12 @@ body{
     }
 }
 
+.logo-principal{
+display: flex; 
+align-items: center; 
+height: 90px; 
+}
+
 //navegador//
 .colortextoenlace a:hover{
     color: $colortextologo;

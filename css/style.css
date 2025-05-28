@@ -32,6 +32,12 @@ body header {
   width: 100%;
 }
 
+.logo-principal {
+  display: flex;
+  align-items: center;
+  height: 90px;
+}
+
 .colortextoenlace a:hover {
   color: #69e779;
 }
@@ -170,6 +176,7 @@ p {
 }
 
 .main-canal-youtube {
+  overflow-x: hidden;
   margin: 20px;
 }
 
@@ -215,6 +222,7 @@ body {
 }
 
 .seccion-nuestra-historia {
+  overflow-x: hidden;
   width: 100%;
   max-width: 100%;
   display: grid;
